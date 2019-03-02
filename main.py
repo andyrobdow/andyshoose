@@ -1,6 +1,6 @@
 import time
 import os
-#from bme280 import getTemp, getHumid, getPress
+from bme280 import getTemp, getHumid, getPress
 
 CSV_FILENAME = 'test.csv'
 JAVASCRIPT_FILENAME = 'web/test.js'
