@@ -24,7 +24,7 @@ def updateAWS():
     writeToFile(JAVASCRIPT_FILENAME, 'document.getElementById("currentHumid").innerHTML = "' + getHumid()[:5] +'";', "a")
     writeToFile(JAVASCRIPT_FILENAME, 'document.getElementById("currentPress").innerHTML = "' + getPress()[:6] +'";', "a")
     writeToFile(JAVASCRIPT_FILENAME, 'document.getElementById("currentTime").innerHTML = "' + getNow() +'";', "a")
-    os.system("aws s3 cp web/home.js s3://andyshoose/home.js" --acl public-read)
+    os.system("aws s3 cp web/home.js s3://andyshoose/home.js --acl public-read")
 
 #Write data to csv files
 def writeToFile(file, data, permission):
