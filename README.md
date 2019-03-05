@@ -1,6 +1,6 @@
 # Andy's Hoose
 
-This project makes use of a raspberry pi and a bme280 break out board to create an indoor environment sensing platform. Mwasurements are taken every minute for temperature, humidity and pressure and written to a local csv file. Current values are also sent as a javascript file so that current conditions can be read externally.
+This project makes use of a raspberry pi and a bme280 break out board to create an indoor environment sensing platform. Measurements are taken every minute for temperature, humidity and pressure and written to a local csv file. Current values are also sent as a javascript file so that current conditions can be read externally.
 
 ### Running Headless Raspberry Pi
 
