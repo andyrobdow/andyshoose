@@ -13,7 +13,7 @@ def getNow():
 
 #Return current room being measured
 def getRoom():
-    return "Bedroom1"
+    return "Living Room"
 
 #Update environment log
 def updateLog():
